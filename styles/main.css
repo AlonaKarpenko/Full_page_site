@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Roboto:wght@400;700&display=swap");
+/* common styles */
+:root {
+  --brown: #7c674e;
+  --grey: rgba(177, 187, 203, 0.87);
+  --white: #fff;
+  --grey-small: rgba(255, 255, 255, 0.27);
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 590px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.page-wrap {
+  min-height: 100vh;
+  background-image: url("../assets/image/moon1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
+/* header nav */
+.header {
+  padding-top: 32px;
+  padding-left: 53px;
+}
+.nav-link {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: var(--grey);
+  text-decoration: none;
+  transition: color 0.3s ease;
+  margin-right: 40px;
+}
+.nav-link:last-child {
+  margin-right: 0px;
+}
+
+.nav-link:hover {
+  color: var(--brown);
+}
+
+/* main section */
+.main {
+  padding-top: 101px;
+  padding-left: 67px;
+  flex-grow: 1;
+}
+
+.main-content {
+  max-width: 567px;
+}
+
+.main-h1 {
+  padding-bottom: 8px;
+}
+.h1 {
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: var(--white);
+}
+
+.txt {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--white);
+}
+/* footer */
+.footer {
+  padding: 149px 44px 75px;
+}
+
+.txt-sm {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: var(--grey-small);
+}
