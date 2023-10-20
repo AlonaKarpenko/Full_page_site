@@ -55,13 +55,13 @@ body {
 
 /* main section */
 .main {
-  padding-left: 23px;
   padding-bottom: 149px;
   flex-grow: 1;
 }
 
 .main-content {
   max-width: 567px;
+  padding-left: 23px;
 }
 
 .main-h1 {
